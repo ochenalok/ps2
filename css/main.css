@@ -1,0 +1,253 @@
+/*/////////////////////////////////////////////
+      TESTING TOOL BOX
+////////////////////////////////////////////*/
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+/*////////////////////////////////////////////*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.nav {
+  max-width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #382266;
+  o/pacity: 0;
+  p/osition: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z/-index: 5;
+}
+.nav_logo {
+  m/ax-width: 30px;
+  h/eight: auto;
+  p/osition: center;
+  t/op: 0.5em;
+  l/eft: 0.5em;
+}
+
+.nav_menu_icon{
+	float:right;
+	color:#fff;
+	font-size:30px;
+	cursor:pointer;
+	margin:0px 5px 5px 15px;
+}
+
+
+.nav_logo{
+	color:#fff;
+	margin:5px auto;
+	font-size:30px;
+
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/headerback.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:#382266 ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid #382266;
+	background:#382266;
+	color:#fff;
+}
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#382266;
+	margin: 2em;
+}
+
+
+
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #382266;
+}
+.about .desc h3{
+	color: #382266;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+/*Portfolio*/
+.portfolio{
+	margin: 4em 0;
+    position: relative;	
+}
+.portfolio h1{
+	color:#382266;
+	margin: 2em;	
+}
+.portfolio img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+
+	
+
+}
+
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: #382266; 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #382266;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+
+/*  FOOTER */
+
+.footer-container{
+  border-style: solid;
+  border-width: 1px;
+  height: 100px;
+  padding-top: 20px;
+  background-color: #382266;
+  m/argin-bottom: 0;
+  b/order: 0;
+  f/ont-size: 14px !important;
+  l/ine-height: 1.42857143 !important;
+
+  margin:0;
+}
+
+.footer-container p{
+  border-color: transparent;
+    color: #fff !important;
+
+}
+
+.footer-container p a{
+  border-color: transparent;
+  color: #fff !important;
+
+
+}
+
+
+footer .glyphicon {
+    font-size: 20px;
+    m/argin-bottom: 20px;
+    color: #fff;
+  }
